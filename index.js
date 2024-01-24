@@ -55,5 +55,6 @@ const nameSorter = document.querySelector("#name-sorter");
 
 // Add an event listener
 nameSorter.addEventListener("click", (event) => {
+  event.preventDefault();
   console.log("You clicked the name sorter");
 });
