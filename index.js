@@ -49,4 +49,3 @@ const park = main.querySelector(".park-display");
 
 // remove that park
 // main.removeChild(park);
-const firstBtn = document.querySelector("button");
